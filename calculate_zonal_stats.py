@@ -1,12 +1,3 @@
-'''
-Write a function that aggregates pixel values within a prescribed ROI.
-Let the user choose between mean, sum, or variance aggregators.
-
-Note: ROI, Raster and Aggregator are specified as inputs in the master config.yaml file
-
-Reference:
-https://pythonhosted.org/rasterstats/
-'''
 
 import sys
 import fiona
