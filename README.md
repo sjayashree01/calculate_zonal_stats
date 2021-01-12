@@ -1,3 +1,3 @@
-Aggregates pixel values within a prescribed AOI. User can choose mean, sum, or variance aggregators. AOI, Raster and Aggregator are specified as inputs in the master config.yaml file
+Aggregates pixel values within a region of interest. User can choose mean, sum, or variance aggregators. Region, Raster and Aggregator are specified as inputs in the master config.yaml file
 
 
