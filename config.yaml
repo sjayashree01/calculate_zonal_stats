@@ -1,0 +1,28 @@
+# Question 1
+copernicus_access:
+  authentication_url: "https://scihub.copernicus.eu/dhus/odata/v1/Users"
+  download_url: 'https://scihub.copernicus.eu/dhus'
+
+geojson_path: 'C:\Users\Prasanna\Desktop\geospatial\roi_ques1\roi.json'
+
+query_parameters:
+  start_date: '20201002'
+  end_date: '20201031'
+  platform_name: 'Sentinel-2'
+  processing_level: 'Level-2A'
+  min_cloudcover: 0
+  max_cloudcover: 20
+
+############################################################################################################
+#Question 3:
+input_raster: 'C:\Users\Prasanna\Desktop\geospatial\Question3\test.jp2'
+output_raster: 'resampled.jp2'
+resample_algo: 'sum'
+xResolution: 500
+yResolution: 500
+
+############################################################################################################
+#Question 4:
+zonal_input_vector: 'C:\Users\Prasanna\Desktop\geospatial\Question4\input\zonal_roi_2.json'
+zonal_input_raster: 'C:\Users\Prasanna\Desktop\geospatial\Question4\input\input_raster.jp2'
+zonal_aggregator: "variance"
